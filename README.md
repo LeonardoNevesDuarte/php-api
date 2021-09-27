@@ -73,14 +73,14 @@
 * Arquivo: calculaPRICE.php
 * Calculo de financiamento por tabela PRICE - Sistema Frances de Amortizacao
 * URL: http://.../calculaPRICE.php
+* Body => JSON
 ```
-Body: JSON { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]} onde
+ { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [vl, i, n ]}
 ```
-* vl = valor financiado
-* i = taxa de juros
-* n = numero de periodos
+* onde vl = valor financiado / i = taxa de juros / n = numero de periodos
 * Method: GET ou POST
 * Retorno:
+````
 {
     "statCode": "<status code>",
     "statMsg": "<status message>",
@@ -94,6 +94,7 @@ Body: JSON { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1
         ],[...]
         ]
 }
+```
 * Os stat codes e messages podem ser vistos em include/std_messages_api_php.php
 
 ## 6 - calculaSAC.php
