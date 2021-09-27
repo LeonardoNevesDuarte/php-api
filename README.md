@@ -100,7 +100,7 @@
 * URL: http://.../calculaPRICE.php
 * Body => JSON
 ```
- { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [vl, i, n ]}
+ { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]}
 ```
 * onde vl = valor financiado / i = taxa de juros / n = numero de periodos
 * Method: GET ou POST
@@ -128,7 +128,7 @@
 * URL: http://.../calculaSAC.php
 * Body => JSON
 ```
-{ "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [vl, i, n]}
+{ "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]}
 ```
 * onde vl = valor financiado / i = taxa de juros / n = numero de periodos
 * Method: GET ou POST
@@ -156,7 +156,7 @@
 * URL: http://.../calculaPAGTO.php
 * Body => JSON 
 ```
-{ "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [vl, i, n]}
+{ "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]}
 ```
 * onde vl = valor financiado / i = taxa de juros / n = numero de periodos
 * Method: GET ou POST
