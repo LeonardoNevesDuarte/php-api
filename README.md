@@ -1,6 +1,6 @@
 # php-api
 
-## Table of contents
+## Índice
 * [Informações gerais](#informações-gerais)
 * [Gerador de CPF](#geraCPF)
 * [Validador de CPF](#validaCPF)
