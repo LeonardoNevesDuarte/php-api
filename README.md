@@ -72,12 +72,13 @@
 ## calculaPRICE.php
 * Arquivo: calculaPRICE.php
 * Calculo de financiamento por tabela PRICE - Sistema Frances de Amortizacao
-* Exemplo de chamada à API:
-** URL: http://.../calculaPRICE.php
-** Body: JSON { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]} onde
-*** vl = valor financiado
-*** i = taxa de juros
-*** n = numero de periodos
+* URL: http://.../calculaPRICE.php
+```
+Body: JSON { "authKey":"", "param": [vl, i, n]} Ex.: { "authKey":"", "param": [1000, 1.5, 12]} onde
+```
+* vl = valor financiado
+* i = taxa de juros
+* n = numero de periodos
 * Method: GET ou POST
 * Retorno:
 {
