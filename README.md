@@ -1,6 +1,23 @@
 # php-api
 
-## 1 - geraCPF.php
+## Table of contents
+* [Informações gerais](#informações-gerais)
+* [Gerador de CPF](#geraCPF.php)
+* [Validador de CPF](#validaCPF.php)
+* [Gerador de CNPJ](#geraCNPJ.php)
+* [Validador de CNPJ](#validaCNPJ.php)
+* [Gerador de CPF](#geraCPF.php)
+* [Gerador de CPF](#geraCPF.php)
+* [Gerador de CPF](#geraCPF.php)
+* [Gerador de CPF](#geraCPF.php)
+* [Setup](#setup)
+
+## Informações Gerais
+Toda a biblioteca foi desenvolvida em PHP com foco em cálculos financeiros
+Chamadas e saídas em formato JSON
+APIs para uso público
+
+## geraCPF.php
 Gerador de CPFs válidos para uso em teste de aplicações
 URL: http://.../geracpf.php
 Body: JSON { "authKey":"", "param": [#]} onde # é a quantidade de CPFs a serem gerados
@@ -13,7 +30,7 @@ Retorno:
 }
 Os stat codes e messages podem ser vistos em include/std_messages_api_php.php
 
-## 2 - validaCPF.php
+## validaCPF.php
 Verificador de número de CPF
 RL: http://.../validacpf.php
 Body: JSON { "authKey":"", "param": ["###########","###########"]} onde ########### são CPFs a serem validados
@@ -26,7 +43,7 @@ Retorno:
 }
 Os stat codes e messages podem ser vistos em include/std_messages_api_php.php
 
-## 3 - geraCNPJ.php
+## geraCNPJ.php
 Gerador de CNPJs válidos para uso em teste de aplicações
 URL: http://.../geracnpj.php
 Body: JSON { "authKey":"", "param": [#]} onde # é a quantidade de CNPJs a serem gerados
@@ -39,7 +56,7 @@ Retorno:
 }
 Os stat codes e messages podem ser vistos em include/std_messages_api_php.php
 
-## 4 - validaCNPJ.php
+## validaCNPJ.php
 Validador de número de CNPJ
 URL: http://.../validacnpj.php
 Body: JSON { "authKey":"", "param": ["###########","###########"]} onde ########### são CNPJs a serem validados
